@@ -1,0 +1,587 @@
+@font-face {
+    font-family: 'ITCAvantGarde';
+    src: url('/assets/fonts/avgr45w.ttf');
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica;
+}
+.navbarBackgroundImg{
+    background-image: url(../img/nav-bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+
+ .navbar{
+    height: 75px;
+    font-size: 15px;
+    text-decoration:  #009245;
+ }
+
+ .navbarLogo{
+     margin: auto 35px;
+ }
+ 
+.collapse.show
+ {
+     background-color: #fff;
+     padding: 15px;
+     margin-top: 20px;
+     z-index: 1000;
+     -webkit-z-index:1000;
+ }
+
+.banner{
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid black;
+}
+
+
+.row1Content{
+    width: 300px;
+    height: 125px;
+    box-shadow: 0 0 59px 18px #e4e4e4 inset;
+    margin-top: 25px;
+}
+
+.row2Content{
+    width: 100%;
+    height: 125px;
+    box-shadow: 0 0 59px 18px #e4e4e4 inset;
+    margin-top: 25px;
+
+}
+
+.firstContentBox,.secondContentBox,.thirdContentBox{
+    padding-right: 100%;
+}
+
+
+.row1Content:hover,.row2Content:hover,.whrBox:hover{
+    box-shadow: 0 0 69px 18px #c7c7c7 inset;
+}
+
+.wrapperContentBoxes{
+    width: 300px;
+    padding: 5px 20px;
+    
+}
+
+.contentBoxesBtn{
+    bottom: 5px;
+    position: absolute;
+}
+
+.wrapperContentLongBox{
+    width: 1080px;
+    padding: 5px 20px;
+}
+
+.contentLongBoxImg{
+    right: 15px;
+    bottom: 0px;
+    position: absolute;
+}
+
+a.contentLinkRed{
+    text-decoration: none;
+    color:#ff0000;
+}
+
+a.contentLinkRed:hover{
+    color:#ff0000
+}
+
+.contentBottomDescription{
+    padding-top:15px;
+    margin-bottom:-15px;
+}
+
+ul.footerLists>li, ul.footerLists>li>a{
+    list-style: none;
+    color: #808080;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul.footerLists>li>a{
+    color:#333;
+}
+
+.footerLinks{
+    margin: 10px;
+    
+    text-decoration: none;
+    color:#333;
+}
+
+li.footerLogo{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.footerLinks{
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+.footerLinks:nth-last-child(6){
+    border: none;
+}
+
+.imgUnderScore{
+    width: 100%;
+}
+
+
+.waContainer, .wypContainer,.whrContainer{
+    margin-top: 25px;
+}
+
+.waImgTag{
+    width: 100%;
+}
+
+.astp{
+    color: #ed4533;
+    font-family: "ITCAvantGarde";
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 2px 1px 0 rgb(231,231,232), -1px -1px 0 rgb(231,231,232), 1px -1px 0 rgb(231,231,232), -1px 1px 0 rgb(231,231,232), 1px 1px 0 rgb(231,231,232);
+}
+
+.hpAstp{
+    width: 100%;
+    height: 75px;
+    color: #ed4533;
+    font-family: "ITCAvantGarde";
+    font-size: 18pt;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 2px 1px 0 rgb(231,231,232), -1px -1px 0 rgb(231,231,232), 1px -1px 0 rgb(231,231,232), -1px 1px 0 rgb(231,231,232), 1px 1px 0 rgb(231,231,232);
+    margin-bottom: 0px;
+    padding-top:25px;
+}
+
+.hpAstpBg{
+    background-image: url("../img/banner-top.png");
+}
+
+.waBottomDescription{
+    margin-top: 20px;
+}
+
+.waTitleTag,.wypTitleTag,.opTitleTag,.whrTitleTag,.faqTitleTag,.touTitleTag,.cuTitleTag{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 16pt;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.waSubTitleTag{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 26pt;
+    padding-bottom: 25px;
+
+}
+
+.waDescription1PTag{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+
+.waDescription1P2Tag{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    word-break: keep-all;
+}
+
+.waDescription2PTag{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    font-family: "ITCAvantGarde";
+    color: #00A950;
+    font-weight: normal;
+    line-height: 29px;
+    letter-spacing: 3px;
+}
+
+.waDescription2P2Tag{
+    padding-bottom: 25px;
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+.waSubItem1Title,.waSubItem2Title,.waSubItem3Title,.waBottomDescriptionTag{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 16pt;
+}
+
+.menuFonts{
+        color: #009245;
+        font-size: 15px;
+        text-decoration: none;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+.menuFonts:hover{
+        color: #009245;
+        border-bottom: 2px solid #119951; 
+}
+
+.wypRow,.opRow{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.wypShadow{
+position: absolute;
+bottom:10px;
+right: 0;
+}
+
+.wypProdRightImg{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.wypProdDesc{
+    font-family: "ITCAvantGarde";
+    color: #009245;
+    font-size: 14pt;
+}
+
+.wypMenuUlTag{
+    margin: 60px 0 0;
+}
+
+ul.wypMenuUlTag>li>a{
+    background: url(/assets/img/pain-left-bullets.png) no-repeat left 0;
+    font-family: "ITC Avant Garde Gothic W01 Dm";
+    color: #999999;
+    text-transform: uppercase;
+
+}
+ul.wypMenuUlTag>li>a:active{
+    background: url(/assets/img/pain-left-bullets.png) no-repeat left -20px;
+    color: #009245;
+}
+
+.wypProdWrapper{
+    margin-top: 50px;
+}
+
+.wypShadowDetailPage{
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+}
+
+.wypProdDetailDesc{
+        letter-spacing: 1px;
+        line-height: 26px;
+        font-size: 18pt;
+        color: #009245;
+        font-family: "ITCAvantGarde";
+}
+
+.wypRecommendedTitle{
+    margin: 25px 0px;
+}
+
+.wypDetailRecommendedContainer{
+position: relative;
+width: 100%;
+}
+
+.wypRecomShadow{
+    position: absolute;
+    bottom: -75px;
+    left: 0px;
+}
+
+.wypDetailRecomWrapper,.opWrapper{
+    margin: 10px 0px;
+}
+
+.opBenefitsDescWrapper{
+    margin-top: 30px;
+}
+
+.opBenefitsP1,.opBenefitsP2{
+    padding : 10px;
+    
+}
+
+.opDProdImgTag{
+    width: 100%;
+}
+
+.opBenefitsImg2{
+    margin-top:35px;
+    padding-right: 15px;
+}
+
+
+.opTableWrapper {
+    background: #e6e6e6;
+    border-bottom: 1px solid #009245;
+    border-top: 1px solid #009245;
+    color: #009245;
+    margin-top: 25px;
+    padding: 15px 25px;
+    overflow: hidden;
+    min-height: 280px;
+}
+
+.opTableTextWrapper{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.opTable2Stp{
+    font-size:8pt;
+}
+
+.opTable2Description{
+    font-size: 18pt;
+}
+
+.faqQuestion, .touDescribeTitle{
+    font-size: 16pt;
+    padding-bottom: 15px;
+    color: #009245;
+    letter-spacing: 1px;
+    font-family: "ITCAvantGarde";
+
+}
+
+.faqAnswer, .touDescription{
+    font-family: "ITCAvantGarde";
+    font-size: 14pt;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.faqWrapper, .touWrapper{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.whrBox{
+    width: 300px;
+    height: 125px;
+    box-shadow: 0 0 59px 18px #e4e4e4 inset;
+    margin: 10px;
+}
+
+
+.whrTitleTag,.whrSubTitleTag{
+    padding-left:25px;
+
+}
+
+.whrBoxLogoAlign{
+    position: relative;
+    bottom:0px;
+    left:130px;
+}
+
+.whrBoxPlayButtonAlign{
+    position: absolute;
+    bottom:0px;
+}
+
+.whrBox{
+    position: relative;
+}
+
+.whrB1Play1{
+    position: absolute;
+    bottom: 0px;
+    padding-left:10px;
+}
+
+.whrBImg1{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.cuEmailIcon,.cuTelephoneIcon{
+padding-right: 15px;
+}
+
+.bWrap1,.bWrap2,.bWrap3,.bWrap4{
+width: 242px;
+position: relative;
+}
+
+.banner{
+    border: 1px solid black;
+}
+
+.bannerWrapper{
+    width: 100%;
+    height: 405px;
+    margin-left: -15px;
+}
+
+
+
+.brandPackImg1,.brandPackImg2,.brandPackImg3,.brandPackImg4{
+    position: absolute;
+    bottom:15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.brandPackTxt1,.brandPackTxt2,.brandPackTxt3,.brandPackTxt4{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.bannerImgTag1,.bannerImgTag2,.bannerImgTag3,.bannerImgTag4,
+.bannerImgTag1Hvr{
+    min-width: 278px;
+    max-width: 278px;
+}
+
+
+/*__________________MEDIA  QUERY___________________*/
+
+
+/* 991px between screen */
+ @media screen and (min-width: 991px) {
+    .navbar-collapse.collapse.show{
+        margin: 0px;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    .mLongContentBox{
+        display: none !important;
+    }
+
+
+ }
+
+ /* screen between 991px */
+ @media screen and (max-width: 991px) {
+
+    .firstContentBox,.secondContentBox,.thirdContentBox,.longContentBox{
+        margin-top: 15px;
+    }
+
+    .contentLongBoxImg{
+        display: none !important;
+    }
+
+    .mLongContentBoxImg{
+    width: 100%;
+    height: 125px;
+    background-size: cover;
+  }
+
+  .mLongContenBox{
+      
+    margin-top: 0px;
+  }
+
+  .wypShadow{
+    position: unset;
+}
+
+.wypRecomATag,.opLinkTag{
+    margin-left: 20px;
+}
+
+.wypMenuUlTag{
+    display: none;
+}
+
+.opBenefitsImg1,.opBenefitsImg2{
+    width: 100%; 
+}
+
+ }
+
+ 
+ /* screen between 768px */
+ @media screen and (max-width: 768px) {
+ .astp{
+    border-bottom: 3px solid #ed4533;
+    padding-bottom: 20px;
+ }
+
+ .wypProdRightImg{
+    position: unset;
+    width: auto;
+}
+
+.wypProdLeftImg{
+    padding-bottom: 15px;
+}
+
+.wypShadow{
+    position: unset;
+}
+
+.wypRecomShadow{
+    position: unset;
+    bottom: 15px;
+}
+
+}
+
+/*Modal Screen Center Alignment*/
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+@media(max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px);
+  }
+}
